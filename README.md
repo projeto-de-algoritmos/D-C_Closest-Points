@@ -1,45 +1,68 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Closest-Points
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
+**Número da Lista**: 17
 
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Conteúdo da Disciplina**: D&C
 
 ## Alunos
+
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 20/0019015 | Guilherme Puida Moreira |
+| 19/0118288 | Vitor Eduardo Kühl Rodrigues |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+
+O projeto tem como objetivo visualizar o algoritmo de pontos mais próximos usando a técnica de dividir e conquistar.
+
+Para isso, as etapas são executadas sequencialmente, mostrando os passos do algoritmo.
+
+Ao finalizar a execução, os pontos mais próximos são destacados.
+
 
 ## Screenshots
+
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+
+**Linguagem**: Typescript 
+
+Para rodar o projeto, clone o repositório:
+
+```bash
+git clone https://github.com/projeto-de-algoritmos/DC_Closest-Points
+cd DC_Closest-Points
+```
+
+Instale as dependências e rode o servidor local:
+
+```bash
+yarn
+yarn dev
+```
+
+O projeto estará disponível em `localhost:5173`.
+
+O projeto também está hospedado em https://closest.puida.xyz
+
+Para rodar os testes (com coverage), execute `yarn coverage`. O relatório fica disponível em `coverage/index.html`.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+
+Clique em qualquer espaço na área delimitada com uma borda preta para adicionar um ponto.
+Quanto existem mais de três pontos, a solução pode ser encontrada usando o botão `Encontrar menor distância`.
+Para limpar a tentativa atual e os pontos inseridos, use o botão `Limpar`.
+
+Para auxiliar nos testes, o botão `Gerar aleatório` insere pontos aleatórios de acordo com a quantidade inserida no slider ao lado.
+
+A menor distância fica no campo `Menor distância`, e o evento atual no campo `Evento`.
+
+Para controlar a velocidade da animação, use o slider `Velocidade`.
 
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 
+O projeto não usa nenhuma dependência além do `Vite`, que é usado para o servidor de desenvolvimento e bundle de arquivos, e `Vitest / C8`, que são usados para executar os testes e gerar o relatório de coverage.
 
 
 
