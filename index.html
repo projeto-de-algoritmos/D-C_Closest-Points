@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <main>
+      <canvas id="canvas" width="1000" height="600"></canvas>
+
+      <div class="buttons">
+        <button id="solve">Encontrar menor distância</button>
+        <button id="reset">Limpar</button>
+        <button id="rand">Gerar aleatório</button>
+        <label for="quant">Quantidade: </label>
+        <input type="range" name="quant" id="quant" min="5" max="200">
+      </div>
+
+      <div>
+        <label for="min-distance">Menor distância: </label>
+        <input type="text" disabled id="min-distance" name="min-distance"/>
+
+        <label for="current-event">Evento: </label>
+        <input type="text" disabled id="current-event" name="current-event" />
+
+        <label for="fps">Velocidade: </label>
+        <input type="range" id="fps" min="1" max="60" name="fps" />
+      </div>
+    </main>
+
+    <script src="src/main.ts" type="module"></script>
+  </body>
+</html>
