@@ -26,6 +26,8 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
 
+O projeto depende de `node` >= 16 e `yarn`.
+
 **Linguagem**: Typescript 
 
 Para rodar o projeto, clone o repositório:
