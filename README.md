@@ -17,12 +17,14 @@ O projeto tem como objetivo visualizar o algoritmo de pontos mais próximos usan
 
 Para isso, as etapas são executadas sequencialmente, mostrando os passos do algoritmo.
 
-Ao finalizar a execução, os pontos mais próximos são destacados.
+Ao finalizar a execução, os pontos mais próximos são destacados, e a distância entre eles fica registrada no campo _Distância_.
 
 
 ## Screenshots
 
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+![Alt Text](/media/capture1.png)
+![Alt Text](/media/capture2.png)
+![Alt Text](/media/capture3.png)
 
 ## Instalação 
 
