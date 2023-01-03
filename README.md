@@ -26,6 +26,10 @@ Ao finalizar a execução, os pontos mais próximos são destacados, e a distân
 ![Alt Text](/media/capture2.png)
 ![Alt Text](/media/capture3.png)
 
+## Vídeo
+
+[O vídeo pode ser encontrado aqui.](/media/dc.mp4)
+
 ## Instalação 
 
 O projeto depende de `node` >= 16 e `yarn`.
